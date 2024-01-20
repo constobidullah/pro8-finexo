@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,24 +15,28 @@ header{
     font-family: 'Montserrat', sans-serif;
 }
 
-#navbar{
+#navbar {
     padding: 25px 20px;
     display: flex;
     justify-content: space-between;
 }
 
-#navbar-favicon a p{
+#navbar-favicon a p {
     font-size: 1.7rem;
     color: #fff;
     font-weight: 700;
 }
 
-#navbar a{
+#navbar a {
     text-decoration: none;
 }
 
-#navbar-link a{
+#navbar-link a {
     color: #fff;
     font-size: 1.2rem;
-    padding: 0 0 0 20px;
+    padding: 0 20px 0 0;
+}
+
+#navbar-link i {
+    color: #fff;
 }
