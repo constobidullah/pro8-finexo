@@ -80,6 +80,12 @@ header {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header-section-title p{
+    color: #fff;
+    font-weight: 200;
 }
 
 #header-section-img {
