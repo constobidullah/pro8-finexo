@@ -13,6 +13,7 @@ header {
     background-image: url("../images/main-bg.png");
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
+    position: relative;
 }
 
 #navbar {
@@ -51,6 +52,31 @@ header {
     color: #fff;
 }
 
-#navbar-link a:hover, #navbar-link i:hover{
+#navbar-link a:hover,
+#navbar-link i:hover {
     color: aqua;
+}
+
+
+/* Header section */
+#header-section {
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-section-title {
+    width: 50%;
+}
+
+#header-section-img {
+    width: 50%;
+}
+
+#header-section-img img {
+    width: 100%;
 }
