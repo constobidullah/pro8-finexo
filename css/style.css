@@ -28,13 +28,17 @@ header {
     transition: .5s;
 }
 
-#navbar-favicon a p:hover{
+#navbar-favicon a p:hover {
     text-shadow: 3px -2px #fff;
     font-size: 2rem;
 }
 
 #navbar a {
     text-decoration: none;
+}
+
+#navbar-link {
+    transition: .3s;
 }
 
 #navbar-link a {
@@ -45,4 +49,8 @@ header {
 
 #navbar-link i {
     color: #fff;
+}
+
+#navbar-link a:hover, #navbar-link i:hover{
+    color: aqua;
 }
