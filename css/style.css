@@ -408,7 +408,7 @@ header {
 .team-member {
     background-color: #123f79;
     text-align: center;
-    padding: 25px 20px;
+    padding: 25px;
     border-radius: 10px;
 }
 
@@ -439,4 +439,10 @@ header {
     padding: 0 10px;
     display: flex;
     justify-content: space-between;
+    gap: 5px;
+}
+
+.team-member-social i{
+    color: #fff;
+    font-size: 1.2rem;
 }
