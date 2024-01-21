@@ -154,3 +154,13 @@ header {
 #service-title p:nth-child(1) span {
     color: #00bbf0;
 }
+
+.service-item{
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+}
+
+.service-item img{
+    width: 70px;
+    height: 70px;
+}
