@@ -443,6 +443,13 @@ header {
 }
 
 .team-member-social i{
+    cursor: pointer;
     color: #fff;
     font-size: 1.2rem;
+    transition: .5s;
+}
+
+.team-member-social i:hover{
+    transform: scale(1.2);
+    color: #00204a;
 }
