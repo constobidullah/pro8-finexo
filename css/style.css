@@ -113,3 +113,19 @@ header {
 #header-section-img img {
     width: 100%;
 }
+
+/* Scroll down section */
+
+#scroll-down{
+    position: absolute;
+    top: 90%;
+    right: 50%;
+    bottom: 0;
+    left: 50%;
+}
+
+#scroll-down i {
+    
+    color: #1b106a;
+    font-size: 5rem;
+}
