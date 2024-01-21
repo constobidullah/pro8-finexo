@@ -136,3 +136,21 @@ header {
 } */
 
 /* our services */
+#service-title {
+    margin-bottom: 40px;
+}
+#service-title p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#service-title p:nth-child(1) {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#service-title p:nth-child(1) span {
+    color: #00bbf0;
+}
