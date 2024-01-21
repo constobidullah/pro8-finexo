@@ -406,11 +406,13 @@ header {
 
 .team-member {
     background-color: #123f79;
+    text-align: center;
+    padding: 20px;
 }
 
 .team-member img {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     border: 3px solid #fff;
     border-radius: 50%;
 }
