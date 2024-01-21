@@ -379,12 +379,19 @@ header {
 
 /* Our Team  */
 
-#team-title h6{
+#team{
+    background-color: #00204a;
+    padding: 70px 50px;
+}
+
+#team-title h6 {
     font-size: 3rem;
     font-family: 'montserrat', sans-serif;
     font-weight: 700;
+    color: #fff;
+    text-align: center;
 }
 
-#team-title h6 span{
-    color: #0b1dc4;
+#team-title h6 span {
+    color: #3549fa;
 }
