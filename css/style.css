@@ -234,7 +234,7 @@ header {
 
 #about-us{
     background-color: #00204a;
-    padding: 60px 20px 50px;
+    padding: 60px 60px 50px;
 }
 
 #about-title {
@@ -260,4 +260,40 @@ header {
 
 #about-title p:nth-child(2){
     font-weight: 300;
+}
+
+#about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+#about-img img{
+    width: 100%;
+}
+
+#about-details{
+    width: 100%;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about-details h4{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#about-details p{
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+#about-details button{
+    border: 2px solid transparent;
+    padding: 5px 25px;
+    font-weight: 600;
+    background-color: #2dc6f0;
+    color: #fff;
+    transition: .5s;
 }
