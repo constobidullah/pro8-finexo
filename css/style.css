@@ -398,9 +398,9 @@ header {
 
 /* team container */
 
-#team-container{
-    display: flex;
-    justify-content: space-between;
+#team-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
@@ -411,8 +411,17 @@ header {
 }
 
 .team-member img {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     border: 3px solid #fff;
     border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h6 {
+    color: #3549fa;
+    font-size: 1.5rem;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
