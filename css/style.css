@@ -408,6 +408,7 @@ header {
     background-color: #123f79;
     text-align: center;
     padding: 20px;
+    border-radius: 10px;
 }
 
 .team-member img {
@@ -424,4 +425,11 @@ header {
     font-family: 'montserrat', sans-serif;
     font-weight: 400;
     margin-bottom: 10px;
+}
+
+.team-member p {
+    color: #fff;
+    font-family: "montserrat", sans-serif;
+    font-weight: 300;
+    margin: 0 0 20px 0;
 }
