@@ -435,3 +435,8 @@ header {
     margin: 0 0 40px 0;
 }
 
+.team-member-social{
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
