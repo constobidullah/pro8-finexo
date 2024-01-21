@@ -320,6 +320,10 @@ header {
     color: #0b1dc4;
 }
 
+#choose-details-parent{
+    padding: 0 50px;
+}
+
 .choose-details {
     text-align: center;
 }
@@ -330,4 +334,16 @@ header {
     border: 4px solid #00204a;
     border-radius: 50%;
     padding: 20px;
+    margin: 0 0 15px;
+}
+
+.choose-details h6{
+    font-size: 1.5rem;
+    font-family: 'montserrat', sans-serif;
+    margin-bottom: 15px;
+}
+
+.choose-details p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
