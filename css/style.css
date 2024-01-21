@@ -136,9 +136,14 @@ header {
 } */
 
 /* our services */
+#service-container {
+    margin-bottom: 70px;
+}
+
 #service-title {
     margin-bottom: 40px;
 }
+
 #service-title p {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -157,39 +162,39 @@ header {
 
 /* Service parent */
 
-#service-parent{
-    margin: 0 100px 70px 100px;
+#service-parent {
+    margin: 0 100px 60px 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 35px;
 }
 
-.service-item{
+.service-item {
     border-radius: 5px;
     background-color: rgb(238, 238, 238);
     text-align: center;
     padding: 20px;
 }
 
-.service-item img{
+.service-item img {
     width: 70px;
     height: 70px;
     margin-bottom: 10px;
 }
 
-.service-item h3{
+.service-item h3 {
     margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
-.service-item p{
+.service-item p {
     margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
-.service-item a{
+.service-item a {
     border-radius: 3px;
     padding: 5px 15px;
     text-decoration: none;
@@ -200,7 +205,27 @@ header {
     box-shadow: inset 0 0 0 0 transparent;
 }
 
-.service-item a:hover{
+.service-item a:hover {
     box-shadow: inset 150px 0 0 0 rgb(11, 11, 94);
     color: #fff;
+}
+
+#view-all-service {
+    text-align: center;
+}
+
+#view-all-service a {
+    text-decoration: none;
+    background-color: #00bbf0;
+    color: #fff;
+    padding: 10px 30px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+#view-all-service a:hover{
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #00bbf0;
 }
