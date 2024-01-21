@@ -379,7 +379,7 @@ header {
 
 /* Our Team  */
 
-#team{
+#team {
     background-color: #00204a;
     padding: 70px 50px;
 }
@@ -395,10 +395,20 @@ header {
 #team-title h6 span {
     color: #3549fa;
 }
-.team-member{
+
+/* team container */
+
+#team-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.team-member {
     background-color: #123f79;
 }
-.team-member img{
+
+.team-member img {
     width: 70px;
     height: 70px;
     border: 3px solid #fff;
