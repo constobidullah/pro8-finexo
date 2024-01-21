@@ -229,3 +229,35 @@ header {
     color: #000;
     border: 2px solid #00bbf0;
 }
+
+/* About us  */
+
+#about-us{
+    background-color: #00204a;
+    padding: 60px 20px 50px;
+}
+
+#about-title {
+    margin-bottom: 40px;
+}
+
+#about-title p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+#about-title p:nth-child(1) {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#about-title p:nth-child(1) span {
+    color: #1dceff;
+}
+
+#about-title p:nth-child(2){
+    font-weight: 300;
+}
