@@ -476,7 +476,12 @@ header {
 
 #review-parent{
     padding: 0 50px;
+    margin: 0 0 100px 0;
     display: flex;
     justify-content: space-between;
     gap: 20px;
+}
+
+.review-child{
+    box-shadow: 0 0 10px 0 #dadada;
 }
