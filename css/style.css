@@ -483,6 +483,7 @@ header {
 }
 
 .review-child{
+    border-radius: 5px;
     padding: 20px 30px;
     text-align: center;
     box-shadow: 0 0 100px 2px #e6e6e6;
