@@ -471,3 +471,12 @@ header {
 #review-title h2 span{
     color: #3549fa;
 }
+
+/* Review parent */
+
+#review-parent{
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
