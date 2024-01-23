@@ -582,3 +582,9 @@ footer {
     justify-content: center;
     gap: 15px;
 }
+
+#footer-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
