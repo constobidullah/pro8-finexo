@@ -517,9 +517,11 @@ header {
 /* Footer  */
 footer {
     background-color: #00204a;
+    padding: 20px 50px;
 }
 
 #footer-container {
     display: flex;
     justify-content: space-between;
+    color: #fff;
 }
