@@ -542,3 +542,8 @@ footer {
     gap: 20px;
     padding: 0 0 10px 0;
 }
+
+.loc-phn-mail a{
+    text-decoration: none;
+    color: #fff;
+}
