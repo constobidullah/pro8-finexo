@@ -568,7 +568,7 @@ footer {
 
 
 /* Info */
-#info-paragraph p{
+#info-paragraph p {
     font-size: 1.1rem;
     font-family: 'montserrat', sans-serif;
     font-weight: 300;
@@ -576,34 +576,36 @@ footer {
 
 /* Links */
 
-#footer-links{
+#footer-links {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 15px;
 }
 
-#footer-links a{
+#footer-links a {
     text-decoration: none;
     color: #fff;
     font-size: 1.2rem;
 }
 
 /* Subscribe */
-#footer-subscribe-box{
+#footer-subscribe-box {
     padding: 30px 0 0 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-#footer-subscribe-box input{
+
+#footer-subscribe-box input {
     background-color: transparent;
     border: 0;
     border-bottom: 1px solid #fff;
     padding: 10px 0;
 }
-#footer-subscribe-box input::placeholder{
-    
+
+#footer-subscribe-box input::placeholder {
+
     font-size: 1.1rem;
     font-family: 'montserrat', sans-serif;
     font-weight: 300;
