@@ -540,7 +540,11 @@ footer {
     align-items: center;
     justify-content: left;
     gap: 20px;
-    padding: 0 0 10px 0;
+    padding: 0 0 20px 0;
+}
+
+.loc-phn-mail i{
+    font-size: 1.3rem;
 }
 
 .loc-phn-mail a{
