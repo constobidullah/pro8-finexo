@@ -533,3 +533,12 @@ footer {
     font-weight: 600;
     margin: 0 0 20px 0;
 }
+
+.loc-phn-mail{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    padding: 0 0 10px 0;
+}
