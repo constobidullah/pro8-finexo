@@ -565,3 +565,11 @@ footer {
 #footer-social-icon i {
     font-size: 1.5rem;
 }
+
+
+/* Info */
+#info-paragraph p{
+    font-size: 1.1rem;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 300;
+}
