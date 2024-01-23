@@ -596,3 +596,16 @@ footer {
     flex-direction: column;
     gap: 10px;
 }
+#footer-subscribe-box input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+}
+#footer-subscribe-box input::placeholder{
+    
+    font-size: 1.1rem;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
