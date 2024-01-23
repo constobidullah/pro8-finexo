@@ -436,45 +436,45 @@ header {
     margin: 0 0 40px 0;
 }
 
-.team-member-social{
+.team-member-social {
     padding: 0 10px;
     display: flex;
     justify-content: space-between;
     gap: 5px;
 }
 
-.team-member-social i{
+.team-member-social i {
     cursor: pointer;
     color: #fff;
     font-size: 1.2rem;
     transition: .5s;
 }
 
-.team-member-social i:hover{
+.team-member-social i:hover {
     transform: scale(1.2);
     color: #3549fa;
 }
 
 /* Client Review */
 
-#review-title{
+#review-title {
     text-align: center;
 }
 
-#review-title h2{
+#review-title h2 {
     font-family: 'montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: 600;
     margin: 0 0 100px 0;
 }
 
-#review-title h2 span{
+#review-title h2 span {
     color: #3549fa;
 }
 
 /* Review parent */
 
-#review-parent{
+#review-parent {
     padding: 0 50px;
     margin: 0 0 100px 0;
     display: flex;
@@ -482,7 +482,7 @@ header {
     gap: 20px;
 }
 
-.review-child{
+.review-child {
     border-radius: 5px;
     padding: 20px 30px;
     text-align: center;
@@ -490,7 +490,7 @@ header {
     position: relative;
 }
 
-.review-child img{
+.review-child img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -501,15 +501,25 @@ header {
     left: 35%;
 }
 
-.review-child h4{
+.review-child h4 {
     margin: 50px 0 10px 0;
     font-size: 1.2rem;
     font-family: 'montserrat', sans-serif;
     font-weight: 400;
 }
 
-.review-child p{
+.review-child p {
     font-family: 'montserrat', sans-serif;
     font-weight: 400;
     font-size: .9rem;
+}
+
+/* Footer  */
+footer {
+    background-color: #00204a;
+}
+
+#footer-container {
+    display: flex;
+    justify-content: space-between;
 }
