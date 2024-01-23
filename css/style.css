@@ -525,3 +525,10 @@ footer {
     justify-content: space-between;
     color: #fff;
 }
+
+.footer-link-title h4 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+}
