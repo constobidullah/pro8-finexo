@@ -515,6 +515,7 @@ header {
 }
 
 /* Footer  */
+
 footer {
     background-color: #00204a;
     padding: 20px 50px;
@@ -550,4 +551,11 @@ footer {
 .loc-phn-mail a{
     text-decoration: none;
     color: #fff;
+}
+
+#footer-social-icon{
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
 }
