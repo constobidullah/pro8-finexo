@@ -588,3 +588,10 @@ footer {
     color: #fff;
     font-size: 1.2rem;
 }
+
+/* Subscribe */
+#footer-subscribe-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
