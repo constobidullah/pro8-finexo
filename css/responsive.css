@@ -23,7 +23,9 @@
         width: 100%;
     }
 
-    #header-section-title h2, #header-section-title p, #header-section-title{
+    #header-section-title h2,
+    #header-section-title p,
+    #header-section-title {
         text-align: center;
     }
 
@@ -31,6 +33,20 @@
         width: 100%;
     }
 
-    
+
+    /* Our service */
+    #service-container {
+        text-align: center;
+        padding: 10px;
+    }
+
+    #service-parent {
+        margin: 0;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .service-item:nth-child(3){
+        margin: 0 0 30px 0;
+    }
 
 }
