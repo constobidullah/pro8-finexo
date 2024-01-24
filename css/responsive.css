@@ -98,5 +98,11 @@
     }
 
     /* footer on the page */
+    #footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
 
 }
