@@ -119,5 +119,13 @@
         justify-content: center;
     }
 
+    /* Info */
+    #info-paragraph p {
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+
+    
+
 
 }
