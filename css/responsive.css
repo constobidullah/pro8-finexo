@@ -6,6 +6,14 @@
         box-sizing: border-box;
     }
 
+    /* Modifier after finished this project */
+
+    #navbar-link {
+        display: none;
+    }
+
+    /* Modifier end */
+
     /* Header section */
     #header-section {
         position: absolute;
@@ -143,10 +151,11 @@
     #footer-subscribe-box {
         padding: 10px 0 0 0;
     }
-    #footer-subscribe-box input::placeholder{
+
+    #footer-subscribe-box input::placeholder {
         text-align: center;
     }
 
-    
+
 
 }
