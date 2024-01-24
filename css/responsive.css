@@ -105,4 +105,19 @@
         gap: 20px;
     }
 
+    .footer-link-title h4 {
+        text-align: center;
+    }
+
+    /* address */
+    .loc-phn-mail {
+        justify-content: center;
+    }
+
+    #footer-social-icon {
+        margin: 20px 0 30px 0;
+        justify-content: center;
+    }
+
+
 }
