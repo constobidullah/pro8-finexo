@@ -78,9 +78,14 @@
 
     #team {
         background-color: #00204a;
-        padding: 70px 50px;
+        padding: 70px 10px;
         margin: 0 0 90px 0;
     }
 
-    
+    /* team container */
+
+    #team-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
