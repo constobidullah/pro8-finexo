@@ -55,4 +55,11 @@
         flex-direction: column;
     }
 
+    /* Choose details parent */
+    
+    #choose-details-parent {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 10px;
+    }
+
 }
