@@ -63,12 +63,24 @@
     }
 
     .choose-details {
-        margin: 0 ;
+        margin: 0;
     }
 
-    .choose-details:nth-child(1), .choose-details:nth-child(2), .choose-details:nth-child(3), .choose-details:nth-child(4) {
+    .choose-details:nth-child(1),
+    .choose-details:nth-child(2),
+    .choose-details:nth-child(3),
+    .choose-details:nth-child(4) {
         grid-column-start: 1;
         grid-column-end: 2;
     }
 
+    /* Our Team  */
+
+    #team {
+        background-color: #00204a;
+        padding: 70px 50px;
+        margin: 0 0 90px 0;
+    }
+
+    
 }
