@@ -45,8 +45,16 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .service-item:nth-child(3){
+    .service-item:nth-child(3) {
         margin: 0 0 30px 0;
+    }
+
+    /* About us  */
+
+    #about-us {
+        background-color: #00204a;
+        padding: 60px 10px;
+        margin: 0 0 80px 0;
     }
 
 }
