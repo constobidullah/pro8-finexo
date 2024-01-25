@@ -34,6 +34,20 @@ header {
     font-weight: 600;
 }
 
+#nav-check-box{
+    color: #fff;
+}
+
+#nav-check-box input{
+    display: none;
+}
+
+#nav-check-box i{
+    display: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
 #nav-links{
     display: flex;
     justify-content: center;
