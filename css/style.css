@@ -46,6 +46,14 @@ nav {
     list-style: none;
     display: flex;
     gap: 20px;
+    align-items: center;
+}
+
+#navlink li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 /* Header section */
