@@ -34,7 +34,7 @@ nav {
     display: none;
 }
 
-#navbar-title a{
+#navbar-title a {
     color: #fff;
     text-decoration: none;
     font-size: 2rem;
@@ -42,14 +42,14 @@ nav {
     font-family: 'montserrat', sans-serif;
 }
 
-#navlink{
+#navlink {
     list-style: none;
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-#navlink li a{
+#navlink li a {
     color: #fff;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;

@@ -3,15 +3,22 @@
     * {
         margin: 0;
         padding: 0;
+        overflow-x: hidden;
         box-sizing: border-box;
     }
 
     /* Modifier after finished this project */
 
-    #navbar-link {
-        display: none;
+    nav{
+        position: relative;
+        flex-direction: row-reverse;
     }
 
+    #toggle{
+        display: block;
+    }
+
+    
     /* Modifier end */
 
     /* Header section */
