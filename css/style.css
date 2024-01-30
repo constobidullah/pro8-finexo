@@ -34,6 +34,14 @@ nav {
     display: none;
 }
 
+#navbar-title a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'montserrat', sans-serif;
+}
+
 #navlink{
     list-style: none;
     display: flex;
