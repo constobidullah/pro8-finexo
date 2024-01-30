@@ -10,8 +10,7 @@
         overflow-x: hidden;
     }
 
-    /* Modifier after finished this project */
-
+    /* navbar */
     nav {
         padding: 20px 10px;
         height: 50px;
@@ -44,8 +43,6 @@
     #check:checked~#navlink {
         left: 0;
     }
-
-    /* Modifier end */
 
     /* Header section */
     #header-section {
