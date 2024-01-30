@@ -3,22 +3,36 @@
     * {
         margin: 0;
         padding: 0;
-        overflow-x: hidden;
         box-sizing: border-box;
+    }
+
+    body {
+        overflow-x: hidden;
     }
 
     /* Modifier after finished this project */
 
-    nav{
+    nav {
+        padding: 20px 10px;
+        height: 50px;
         position: relative;
         flex-direction: row-reverse;
     }
 
-    #toggle{
+    #toggle {
         display: block;
     }
 
-    
+    #navlink {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #00204a;
+        width: 100%;
+        height: 100vh;
+        z-index: 100;
+    }
+
     /* Modifier end */
 
     /* Header section */

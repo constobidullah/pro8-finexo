@@ -17,6 +17,7 @@ header {
 }
 
 nav {
+    height: 50px;
     padding: 10px 20px;
     color: #fff;
     display: flex;
