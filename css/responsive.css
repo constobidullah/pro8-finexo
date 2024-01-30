@@ -26,11 +26,17 @@
     #navlink {
         position: absolute;
         top: 50px;
-        left: 0;
+        left: -100%;
         background-color: #00204a;
         width: 100%;
         height: 100vh;
         z-index: 100;
+    }
+
+    /* Main focus on navbar */
+
+    #check:checked~#navlink {
+        left: 0;
     }
 
     /* Modifier end */
