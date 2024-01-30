@@ -31,6 +31,11 @@
         width: 100%;
         height: 100vh;
         z-index: 100;
+
+        display: block;
+        padding: 40%;
+        line-height: 50px;
+        text-align: right;
     }
 
     /* Main focus on navbar */
